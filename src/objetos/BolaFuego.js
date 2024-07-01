@@ -25,13 +25,13 @@ export default class BolaFuego extends Phaser.Physics.Arcade.Sprite {
                 this.setTexture('tierra');
                 break;
             case 2:
-                this.setTexture('arena');
+                this.setTexture('hielo');
                 break;
             case 3:
                 this.setTexture('fuego');
                 break;
             case 4:
-                this.setTexture('hielo');
+                this.setTexture('arena');
                 break;
         }
     }
