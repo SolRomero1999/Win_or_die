@@ -1,12 +1,12 @@
 import Phaser from "phaser";
-import UI from "./scenes/UI";
-import PantallaCarga from "./scenes/PantallaCarga";
-import PantallaMenuPrincipal from "./scenes/PantallaMenuPrincipal";
-import PantallaMenu from "./scenes/PatantallaMenu";
-import PantallaControles from "./scenes/PantallaControles";
-import Nivel from "./scenes/Nivel";
-import PantallaFinRonda from "./scenes/PantallaFinRonda";
-import SeleccionAuto from "./scenes/SeleccionAuto";
+import UI from "./src/scenes/UI";
+import PantallaCarga from "./src/scenes/PantallaCarga";
+import PantallaMenuPrincipal from "./src/scenes/PantallaMenuPrincipal";
+import PantallaMenu from "./src/scenes/PatantallaMenu";
+import PantallaControles from "./src/scenes/PantallaControles";
+import Nivel from "./src/scenes/Nivel";
+import PantallaFinRonda from "./src/scenes/PantallaFinRonda";
+import SeleccionAuto from "./src/scenes/SeleccionAuto";
 
 const config = {
   type: Phaser.AUTO,
