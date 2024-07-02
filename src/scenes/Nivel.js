@@ -25,12 +25,12 @@ export default class Nivel extends Phaser.Scene {
 
     constructor() {
         super("Nivel");
-        this.maxNivel = 4;
+        this.maxNivel = 5;
     }
 
     init(data) {
         this.nivel = data.nivel || 1;
-        this.maxNivel = data.maxNivel || 4;
+        this.maxNivel = data.maxNivel || 5;
         this.tiempo = 30;
         this.monedasEquipoIzquierda = 0;
         this.monedasEquipoDerecha = 0;

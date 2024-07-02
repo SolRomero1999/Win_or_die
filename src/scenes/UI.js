@@ -36,7 +36,7 @@ export default class UI extends Phaser.Scene {
         fill: true,
       },
     }).setOrigin(0.5);
-    this.inicioCarrera = 3;
+    this.inicioCarrera = 5;
     this.contadorBandera = this.inicioCarrera;
     this.contadorBanderaTexto = this.add.text(this.scale.width / 2, this.scale.height / 2, `${this.contadorBandera}`, {
       fontFamily: "AlarmClock",
